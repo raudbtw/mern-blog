@@ -99,7 +99,7 @@ export const PostPage = () => {
                         >
                             {post?.imgUrl && (
                                 <img
-                                    src={`http://localhost:3002/${post.imgUrl}`}
+                                    src={`https://mern-blog-p366b59pm-raudbtw.vercel.app//${post.imgUrl}`}
                                     alt='img'
                                     className='object-cover w-full'
                                 />
