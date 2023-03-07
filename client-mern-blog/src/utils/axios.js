@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    baseURL: 'https://mern-blog-p366b59pm-raudbtw.vercel.app/',
+    baseURL: 'mern-blog-api.vercel.app',
 })
 
 instance.interceptors.request.use((config) => {
