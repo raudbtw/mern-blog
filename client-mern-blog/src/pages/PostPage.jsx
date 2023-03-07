@@ -99,7 +99,7 @@ export const PostPage = () => {
                         >
                             {post?.imgUrl && (
                                 <img
-                                    src={`mern-blog-api.vercel.app/${post.imgUrl}`}
+                                    src={`https://mern-blog-client-ten.vercel.app/${post.imgUrl}`}
                                     alt='img'
                                     className='object-cover w-full'
                                 />
