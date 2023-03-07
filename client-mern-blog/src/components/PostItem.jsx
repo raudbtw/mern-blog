@@ -21,7 +21,7 @@ export const PostItem = ({ post }) => {
                 >
                     {post.imgUrl && (
                         <img
-                            src={`https://mern-blog-p366b59pm-raudbtw.vercel.app//${post.imgUrl}`}
+                            src={`mern-blog-api.vercel.app/${post.imgUrl}`}
                             alt='img'
                             className='object-cover w-full'
                         />
